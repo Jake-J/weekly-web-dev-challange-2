@@ -1,0 +1,12 @@
+{
+    "mediumImgs":{
+        "imageSrc1" : {
+            "src":"./data/additional-imgs/add-img1.jpg",
+            "alt":"additionnal img1"
+        },
+        "imageSrc2" : {
+            "src":"./data/additional-imgs/add-img2.jpg",
+            "alt": "additional img2"
+        }
+    }
+}

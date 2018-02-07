@@ -38,10 +38,10 @@ $(document).ready(function() {
             var sectionName;
             for (let i = 0; i < sections.length; i++){
                 if(sections[i+1]){
-                    if(sections[i].offsetTop-80 <= $(this).scrollTop() && sections[i+1].offsetTop >= $(this).scrollTop()){
+                    if(sections[i].offsetTop-60 <= $(this).scrollTop() && sections[i+1].offsetTop >= $(this).scrollTop()){
                         sectionName = sections[i].id;
                     }
-                }else if(sections[i+1] === undefined && sections[i].offsetTop-80 <= $(this).scrollTop()) {
+                }else if(sections[i+1] === undefined && sections[i].offsetTop-60 <= $(this).scrollTop()) {
                     sectionName = 'contact';
                 }
             }
